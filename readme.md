@@ -27,7 +27,8 @@ image = tifffile.imread("input_filename.tif")
 # Load calibration file
 dpcore.load_parameters("path_to_calibration_file\\calibration.dat")
 # Prepare image buffer with dpcore
-dpcore.prepare_image(image, "calibration_identifier")
+for page in range(image.shape[0]):
+    dpcore.prepare_image(image[page], "calibration_identifier")
 # Save dpcore prepared image using tiffile
 tifffile.imsave(output_filename, data=image.astype(np.uint16))
 ```
