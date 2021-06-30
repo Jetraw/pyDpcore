@@ -1,6 +1,5 @@
-# pyDpcore, the python module for Dpcore
-This is a Python module to Dpcore prepare images in order to be compressed with JetRaw afterwards. For more info visit
-https://www.dotphoton.com/
+# pyDpcore, the Python Module for Dpcore
+This is the Dpcore Python Module which offers the option to dpcore prepare images, allowing to use Jetraw's compression afterwards. For more info visit https://www.dotphoton.com/
 
 ## Requirements
 - Jetraw/Dpcore installed on a Windows computer.<br/>
@@ -32,7 +31,7 @@ for page in range(image.shape[0]):
 tifffile.imsave(output_filename, data=image.astype(np.uint16))
 ```
 
-You will also find an example_script.py inside the example folder with a test calibration file (.dat). 
+You will also find an example_script.py inside the example folder with a calibration file (.dat). 
 
 ## Contact
 Feel free to use the [issues section](https://github.com/Jetraw/pyDpcore/issues) to report bugs or request new features. You can also ask questions and give comments by visiting the [discussions](https://github.com/Jetraw/pyDpcore/discussions), or following the contact information at https://jetraw.com.
