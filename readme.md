@@ -9,7 +9,7 @@ https://www.dotphoton.com/
 - Camera calibration file. 
 
 ## Installation
-First download the WHL file from [latest release](https://github.com/Jetraw/pyDpcore/releases/latest), or browse [previous releases](https://github.com/Jetraw/pyDpcore/releases). 
+First download the WHL file from [latest (pre-)release](https://github.com/Jetraw/pyDpcore/releases/download/21.06.23.1/DPCore-0.9.0-py3-none-any.whl), or browse [previous (pre-)releases](https://github.com/Jetraw/pyDpcore/releases). 
 Once the WHL file is downloaded in order to install pyJetraw run the following command:
 
 ```python
@@ -36,6 +36,4 @@ tifffile.imsave(output_filename, data=image.astype(np.uint16))
 You will also find an example_script.py inside the example folder with a test calibration file (.dat). 
 
 ## Contact
-
-If you have any request or doubt please do not hesitate to contact us to:
-https://dotphoton.com/contact
+Feel free to use the [issues section](https://github.com/Jetraw/pyDpcore/issues) to report bugs or request new features. You can also ask questions and give comments by visiting the [discussions](https://github.com/Jetraw/pyDpcore/discussions), or following the contact information at https://jetraw.com.
