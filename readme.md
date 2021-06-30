@@ -1,11 +1,10 @@
 # pyDpcore, the python module for Dpcore
-
 This is a Python module to Dpcore prepare images in order to be compressed with JetRaw afterwards. For more info visit
 https://www.dotphoton.com/
 
-
 ## Requirements
-- Jetraw/Dpcore installed on a Windows computer.
+- Jetraw/Dpcore installed on a Windows computer.<br/>
+*Note:* if you do not have Jetraw installed visit https://www.jetraw.com/downloads/software and for usage information https://github.com/Jetraw/Jetraw
 - Camera calibration file. 
 
 ## Installation
