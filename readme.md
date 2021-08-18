@@ -2,8 +2,9 @@
 This is the Dpcore Python Module which offers the option to dpcore prepare images, allowing to use Jetraw's compression afterwards. For more info visit https://www.dotphoton.com/
 
 ## Requirements
-- Jetraw/Dpcore installed on a Windows computer.<br/>
-*Note:* if you do not have Jetraw installed visit https://www.jetraw.com/downloads/software and for usage information https://github.com/Jetraw/Jetraw
+- Windows 10 64 bits or Linux
+- Jetraw/Dpcore installed.<br/>
+*Note:* if you do not have Jetraw/Dpcore installed visit https://www.jetraw.com/downloads/software and for usage information https://github.com/Jetraw/Jetraw
 - Camera calibration file. 
 
 ## Installation Windows
